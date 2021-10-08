@@ -59,6 +59,7 @@ Otherwise, installation can be done by following the below instructions.
 ## Git
 
 Install [git](https://git-scm.com/downloads) if you don't already have it. Verify it's installed with `git --version` 
+IMPORTANT: Perform a [pull request](https://opensource.com/article/19/7/create-pull-request-github). This is essential every time you try to contribute to the project. NEVER push directly to MAIN without consent from the project manager.
 
 ## Node
 
