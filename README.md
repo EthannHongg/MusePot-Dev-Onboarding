@@ -50,7 +50,7 @@ Once installed, you may want to set the WSL as the default profile.
 
 **Note: if you do not choose to use one of these terminal apps, your windows user's home directory is found at `/mnt/c/Users/<YOUR USER NAME>`. `cd` to that directory to navigate the windows file-system.**
 
-# Our Tech
+# Our Tech Setup (Please get Linux/WSL before you do this)
 
 If you are running a unix shell (Linux, MacOS, WSL), these installation steps can be automated by running the `setup-dev.sh` script. `cd` into the directory where this script is located, and run `./setup-dev.sh`.
 
@@ -76,6 +76,25 @@ Install yarn: `npm i -g yarn`
 
 Verify yarn was installed correctly: `yarn --version`
 
-# Your Development Environment
+## Recommended Installations
 
-It's a good idea to have a central location for all your development projects. Having a `Developer` directory in your home directory is one possible location for this. This is just a suggestion -- if you have a project location strategy that works for you, more power to you.
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- Simple React Snippets (within VS Code)
+- Prettier - Code Formatter (within VS Code)
+
+## Backend Setup (Frontend people are temporarily not required to do this)
+
+### Brew
+
+Install [Brew](https://brew.sh/) if you don't already have it.
+
+### MongoDB Community Edition (not required)
+
+Install [MongoDB Community Edition](https://docs.mongodb.com/manual/administration/install-community/) for convenience. This only helps you test/debug more efficiently in your local environment. You can still choose to use the online MongoDB service.
+
+### Postman (works exactly like playground, but better)
+
+Install [Postman](https://www.postman.com/downloads/) if you don't already have it.
+
+
