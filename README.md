@@ -65,16 +65,12 @@ IMPORTANT: Perform a [pull request](https://opensource.com/article/19/7/create-p
 
 It's a good idea to use the [node version manager](https://github.com/nvm-sh/nvm#install--update-script) to manage multiple node versions. Open a new terminal instance, and check if nvm installed correctly: `nvm --version`
 
-Run the following commands to install the required node version:
+Run the following commands69:
 
 ```bash
-nvm install '12.16.3'
-nvm use '12.16.3'
+npm install -g npm
+sudo apt-get install build-essential
 ```
-
-Install yarn: `npm i -g yarn`
-
-Verify yarn was installed correctly: `yarn --version`
 
 ## Recommended Installations
 
